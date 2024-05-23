@@ -1,8 +1,8 @@
 use std::env;
 
 use redis::Commands;
-use tokio::time::{Duration as TokioDuration, sleep_until, Instant};
-use chrono::{Duration, DateTime, Local, NaiveDate, Timelike};
+use tokio::time::{sleep_until, Instant};
+use chrono::{Duration, DateTime, Local, Timelike};
 use dotenvy::dotenv;
 use serde::{Deserialize, Serialize};
 use sqlx::postgres::PgPoolOptions;
